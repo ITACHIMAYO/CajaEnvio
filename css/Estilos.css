@@ -1,0 +1,962 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
+@import url("https://fonts.google.com/specimen/Mochiy+Pop+P+One");
+
+header{
+  top: auto;
+  position: static;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 30px;
+  padding: 25px;
+  padding-right: 0;
+  
+
+
+ 
+background: rgb(53,20,120);
+background: -moz-linear-gradient(top,  rgba(53,20,120,1) 0%, rgba(62,27,169,1) 50%, rgba(58,22,156,1) 51%, rgba(89,49,223,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(53,20,120,1) 0%,rgba(62,27,169,1) 50%,rgba(58,22,156,1) 51%,rgba(89,49,223,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(53,20,120,1) 0%,rgba(62,27,169,1) 50%,rgba(58,22,156,1) 51%,rgba(89,49,223,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#351478', endColorstr='#5931df',GradientType=0 ); 
+
+}
+#Logo{
+width: 320px;
+
+}
+
+.LogoImg{
+  height: 60px;
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Botones y buscadores*/
+.Terminos{
+
+ color: #fff;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+
+}
+.Terminos:hover
+{
+  
+  TEXT-DECORATION: underline;
+  
+}
+.img-center{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+/*.buscadorContenedor {
+}
+*/
+nav{
+  padding-right: 10px;
+  max-height: 50px;
+}
+
+.Buscador {
+  position: relative;
+  display: inline-block;
+  top: 15px;
+  margin-left: 300px;
+  padding: 20px;
+  padding-right: 5px;
+  transform: translate(-50%, -50%);
+}
+
+.Buscador input {
+  position: relative;
+  display: block;
+}
+
+#Buscador {
+ 
+  box-sizing: border-box;
+  top: 80%;
+  padding: 0 15px;
+ 
+  border-radius: 50px;
+  font-size: 20px;
+  left: 60%;
+ 
+}
+
+::placeholder {
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+}
+
+
+
+
+
+/* boton de inicio*/
+
+.InicioBoton {
+  position: relative;
+  display: inline-block;
+  padding: 15px, 30px;
+  color: #fff;
+  margin: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.InicioBoton:hover {
+  background-color: rgb(40, 108, 185);
+  box-shadow: 0 0 10px rgb(40, 108, 185), 0 0 40px rgb(40, 108, 185),
+    0 0 80px rgb(40, 108, 185);
+  transition-delay: 1s;
+ 
+}
+
+
+.InicioBoton span {
+  position: absolute;
+  display: block;
+}
+
+#B-Inicio {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(40, 108, 185));
+}
+.InicioBoton:hover #B-Inicio {
+  left: 100%;
+  transition: 1s;
+}
+
+#B-Inicio1 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, rgb(40, 108, 185));
+}
+.InicioBoton:hover #B-Inicio1 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+/* BOTON CATEGORIA*/
+
+.CategoriaBoton {
+  position: relative;
+  display: inline-block;
+  padding: 15px, 30px;
+  color: #fff;
+  margin: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.CategoriaBoton:hover {
+ 
+ 
+  background-color: rgb(40, 108, 185);
+  box-shadow: 0 0 10px rgb(40, 108, 185), 0 0 40px rgb(40, 108, 185),
+   0 0 80px rgb(40, 108, 185);
+  transition-delay: 1s;
+
+
+
+
+}
+
+
+.CategoriaBoton span {
+  position: absolute;
+  display: block;
+}
+
+#B-Categoria {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(40, 108, 185));
+}
+.CategoriaBoton:hover #B-Categoria {
+  left: 100%;
+  transition: 1s;
+}
+
+#B-Categoria1 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, rgb(40, 108, 185));
+}
+.CategoriaBoton:hover #B-Categoria1 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+
+
+
+/* boton de votos----------------------------------------------------------------------------------*/
+
+.VotosBoton {
+  position: relative;
+  display: inline-block;
+  padding: 15px, 30px;
+  color: #fff;
+  margin: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.VotosBoton:hover {
+  background-color: rgb(40, 108, 185);
+  box-shadow: 0 0 10px rgb(40, 108, 185), 0 0 40px rgb(40, 108, 185),
+    0 0 80px rgb(40, 108, 185);
+  transition-delay: 1s;
+}
+.VotosBoton span {
+  position: absolute;
+  display: block;
+}
+
+#B-Votos {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(40, 108, 185));
+}
+.VotosBoton:hover #B-Votos {
+  left: 100%;
+  transition: 1s;
+}
+
+#B-Votos1 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, rgb(40, 108, 185));
+}
+.VotosBoton:hover #B-Votos1 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+/* boton de popular------------------------------------------------------------------------------------*/
+
+.PopularBoton {
+  position: relative;
+  display: inline-block;
+  padding: 15px, 30px;
+  color: #fff;
+  margin: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.PopularBoton:hover {
+  background-color: rgb(40, 108, 185);
+  box-shadow: 0 0 10px rgb(40, 108, 185), 0 0 40px rgb(40, 108, 185),
+    0 0 80px rgb(40, 108, 185);
+  transition-delay: 1s;
+}
+.PopularBoton span {
+  position: absolute;
+  display: block;
+}
+
+#B-Popular {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(40, 108, 185));
+}
+.PopularBoton:hover #B-Popular {
+  left: 100%;
+  transition: 1s;
+}
+
+#B-Popular1 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, rgb(40, 108, 185));
+}
+.PopularBoton:hover #B-Popular1 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+/* boton de Carrusel----------------------------------------------------------------------------------*/
+
+.sliderMenu{
+
+text-align: center;
+margin: 5px;
+
+}
+
+.sliderMenu li {
+
+  text-align: center;
+  display: inline-block;
+  }
+  
+  .sliderMenu li a{
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: rgb(133, 80, 182);
+  padding: 5px;
+  width: 10px;
+  height: 10px;
+  font-size: 11px;
+  border-radius: 100%;
+
+
+  }
+  .ColumnasSilder{
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 4rem;
+    
+  }
+
+
+
+
+/* Contenido----------------------------------------------------------------------------------------------------------*/
+
+
+.comentariosPubicados{
+width: 400px;
+height: 100px;
+background-color: #fff;
+box-shadow: 2px 10px 12px rgb(0, 0, 0);
+position: relative;
+display: block;
+float: right;
+left: 575px;
+top: -200px;
+}
+
+
+
+
+
+
+
+.EnvioComentarios{
+
+width: 400px;
+height: 200px;
+background-color:rgb(254, 253, 255);
+padding: 27px;
+box-shadow: 2px 10px 12px rgb(0, 0, 0);
+border-radius: 5px;
+margin: 40px;
+left: 95px;
+position: relative;
+display: block;
+
+}
+
+
+.EnviarConTitulo{
+color: rgb(122, 122, 122);
+text-align: center;
+font-size: 20px;
+
+
+}
+.EnviarTitulo{
+
+  color: rgb(122, 122, 122);
+  text-align:left;
+  font-size: 20px;
+  
+
+}
+
+#EnviarConNombre input {
+  position: relative;
+  display: block;
+  float: right;
+}
+
+.EnviarConNombre {
+ 
+  box-sizing: border-box;
+  top: -40px;
+  padding: 0 15px;
+ 
+  border-radius: 5px;
+  font-size: 20px;
+  
+ 
+}
+
+
+#EnviarComentario input {
+  position: relative;
+  display: block;
+}
+
+.EnviarComentario {
+ 
+  box-sizing: border-box;
+  top: -40px;
+  padding: 0 15px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  left: 29%;
+  height: 80px;
+}
+
+
+
+
+
+.TextoSeparador{
+color: rgb(122, 122, 122);
+margin-left: 80px;
+margin-top: 20px;
+}
+
+
+
+article {
+  background: rgb(255, 255, 255);
+}
+
+
+.Titulo2{
+
+  text-align: center;
+ color: rgb(66, 66, 66);
+ margin: 20px;
+}
+
+.InforAnime{
+color: rgb(255, 255, 255);
+
+}
+.SustituloInicio{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+.TituloAnime {
+  text-align:center;
+  color: rgb(14, 14, 14);
+}
+
+p{
+  text-align:justify;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  
+}
+
+
+
+
+
+
+
+/* Carrusel-----------------------------------------------------------*/
+
+
+
+
+.container{
+ margin:auto;
+ background-color: rgb(255, 255, 255);
+ width: 200px;
+height: 200px;
+padding: 27px;
+box-shadow: 2px 10px 12px rgb(0, 0, 0);
+border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+/* divisiones--------------------------------------------------------------------------------------------*/
+
+.C-Cuadros {
+  background: rgb(255, 254, 254);
+  border-radius: 5px;
+  line-height: 1.5;
+  text-align: justify;
+  box-shadow: 3px 3px 5px 3px rgb(10, 10, 10);
+  margin: 5px;
+  
+}
+.C-Cuadros .AnimeImg {
+  border-radius: 2px;
+  
+}
+
+
+
+/*inicio-----------------------------------------------------------------------------------------*/
+
+
+.C-Inicio {
+  background:  rgb(226, 225, 225);
+ 
+  border-radius: 5px;
+
+  line-height: 1.5;
+  text-align: justify;
+  box-shadow: 3px 3px 5px 3px rgb(10, 10, 10);
+  margin: 4px;
+}
+.C-Inicio .ImgInicio {
+  border-radius: 5px;
+  margin: 5px;
+  
+}
+
+.C-Inicio:hover {
+  background: rgb(111, 157, 243);
+  
+}
+
+
+
+
+
+
+
+/* Imagenes------------------------------------------------------------------------------------------------*/
+
+
+
+.ImgContenido
+  {
+  background: rgb(255, 254, 254);
+  border-radius: 5px;
+  line-height: 1.5;
+  text-align: justify;
+  box-shadow: 3px 3px 5px 3px rgb(10, 10, 10);
+  margin: 5px;
+}
+
+.ImgContenido .TamañoImgContenido {
+  border-radius: 2px;
+  
+}
+
+
+
+
+.ImgInicio{
+
+ max-width: 480px;
+
+}
+
+html{
+  margin: 0;
+  padding: 0
+}
+
+.AnimeImg {
+  max-height: 200px;
+}
+
+.PortadaPublicidadImg{
+
+max-width: 1300px;
+max-height: 700px;
+}
+
+
+
+.PortadaPublicidad{
+  justify-content: center;
+  align-items:center ;
+  position: relative;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  
+  border-radius: 5px;
+  object-fit: cover;
+  nav-left: auto;
+  box-shadow: 3px 3px 5px 3px rgb(104, 104, 104);
+  padding-right: 0;
+
+}
+
+
+ .imgPortadaFiltro{
+   height: 80px;
+   width: 100%;
+   background-color: rgba(61, 61, 61, 0.2);
+ }
+
+/*Etiquetas-----------------------------------------------------------------------------*/
+nav {
+  background-color: rgb(55, 0, 87);
+  background-position-x: 50%;
+  top: auto;
+  position: static;
+  padding-left: 50px;
+  padding: 10px;
+  
+
+}
+
+ul,li{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+
+/*carrusel ------------------------------------------------------------------------------*/
+
+ul.slider{
+
+position: relative;
+width: 100%;
+height: 200px;
+
+}
+
+
+ul.slider li{
+
+position:absolute;
+left: 0;
+top: 0;
+opacity: 0;
+width: inherit;
+height: inherit;
+
+
+}
+
+ul.slider li img{
+
+  width: 200px;
+  height: 200px;
+   object-fit: cover;
+}
+
+ul.slider li:first-child{
+
+opacity: 1;
+
+}
+
+ul.slider li:target{
+
+opacity: 1;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+a {
+text-decoration: none;
+
+
+}
+
+
+section{
+
+justify-content: center;
+
+
+}
+
+.SeparadorContenido{
+
+  text-align: center;
+ color: rgb(66, 66, 66);
+ margin-bottom: 20px;
+}
+
+
+
+footer{
+  background-color: rgb(24, 24, 24);
+  background-position-x: 50%;
+  top: auto;
+  position: static;
+  padding-left: 50px;
+  
+  
+
+}
+#B-Terminos{
+  padding-left: 20px;
+  
+}
+
+
+
+
+
+body{
+  padding: 0;
+  height: 100%;
+  margin: 0;
+
+}
+
+
+.bodysocial{
+  
+  padding: 0;
+  height: 100%;
+  margin: 0;
+
+
+  background-color: aliceblue;
+}
+
+.bodyInicio{
+    
+  
+  padding: 0;
+  height: 100%;
+  margin: 0;
+
+
+
+  background-color: aliceblue;
+}
+
+.bodyvoto{
+  
+  padding: 0;
+  height: 100%;
+  margin: 0;
+  
+ background-color: aliceblue;
+
+}
+
+
+
+
+
+
+
+.animes{
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 5rem;
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-morado-abstracto-degradado_52683-74024.jpg?size=626&ext=jpg);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+
+
+
+.mainInicio{
+ 
+  display: grid;
+  grid-template-columns: repeat(1, 800px);
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 1rem;
+
+}
+
+
+
+
+@media (max-width: 1050px) {
+  
+  .Buscador{
+
+    display: none;
+  }
+
+
+
+}
+
+
+
+@media (max-width: 1000px) {
+  .animes {
+    grid-template-columns: repeat(3, 200px);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .AnimeImg {
+    max-height: 200px;
+  }
+  .Buscador{
+
+    display: none;
+  }
+  .mainInicio{
+
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 3rem;
+    
+  }
+
+  .ColumnasSilder{
+    display: grid;
+    grid-template-columns: repeat(3,270px);
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 3rem;
+    
+  }
+
+
+
+
+
+}
+
+@media (max-width: 750px) {
+  .animes {
+    grid-template-columns: repeat(2, 200px);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .AnimeImg {
+    max-height: 200px;
+  }
+  .PopularBoton{
+    display: none;
+    
+
+  }
+
+  .ColumnasSilder{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 2rem;
+    
+  }
+
+
+
+
+}
+
+
+@media (max-width: 450px) {
+  nav{
+    display: none;
+    
+
+  }
+  
+  .navMobile {
+    display: inherit;
+  }
+  .animes {
+    grid-template-columns: repeat(1, 200px);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .AnimeImg {
+    max-height: 200px;
+  }
+
+  .ColumnasSilder{
+    display: grid;
+    grid-template-columns: repeat(1,500px);
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    
+  }
+
+
+
+
+
+}
